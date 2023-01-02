@@ -14,9 +14,18 @@ object BaseScalaLang {
         names(0) = "mate"
         names(1) = "master"
         names(2) = "matemaster"
+
         for (elem <- names) {
             println(elem)
         }
+
+        for (i <- 0 until names.length) {
+            println(names(i))
+        }
+//        等价于fori
+//        for (i <- names.indices) {
+//            println(names(i))
+//        }
 
         names.foreach(item => println(item))
     }

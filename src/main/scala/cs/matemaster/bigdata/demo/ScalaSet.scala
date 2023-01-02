@@ -20,6 +20,7 @@ object ScalaSet {
         treasureMap += (2 -> "Find big X on ground.")
         treasureMap += (3 -> "Dig.")
         println(treasureMap(2))
+        println(treasureMap)
 
         val romanNumeral = Map(
             1 -> "I", 2 -> "II", 3 -> "III", 4 -> "IV", 5 -> "V"
